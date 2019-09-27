@@ -11,7 +11,7 @@ class Source(Base):
 
         self.name = "ghq"
         self.mark = "[ghq]"
-        self.rank = 1000
+        self.rank = 10000
         self.min_pattern_length = 3
         self.__result: Candidates = []
 
